@@ -1,5 +1,8 @@
-// setting up the initial functions
+const numbers = document.querySelectorAll('.number');
 
+numbers.addEventListener('click',);
+
+// setting up the initial functions
 let add = function(a,b) {
     return a + b;
 }
@@ -25,3 +28,4 @@ let operate = function(num1, num2, operator) {
         console.log(divide(num1, num2))
     } 
 }
+
