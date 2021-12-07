@@ -1,6 +1,14 @@
 const numbers = document.querySelectorAll('.number');
 
-numbers.addEventListener('click',);
+let storageVariable = "";
+
+function buttonPress(num) {
+    let value = numbers[num].innerText;
+
+    return value;
+}
+console.log(buttonPress(1));
+// numbers.addEventListener('click',);
 
 // setting up the initial functions
 let add = function(a,b) {
