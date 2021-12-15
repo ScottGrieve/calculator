@@ -1,14 +1,15 @@
 const numbers = document.querySelectorAll('.number');
 
-let storageVariable = "";
-
+let storageVariable = document.querySelector('.display').innerText;
+console.log(storageVariable);
 function buttonPress(num) {
     let value = numbers[num].innerText;
 
-    return value;
+    storageVariable += value;
+    console.log(storageVariable);
 }
-console.log(buttonPress(1));
-// numbers.addEventListener('click',);
+
+
 
 // setting up the initial functions
 let add = function(a,b) {
